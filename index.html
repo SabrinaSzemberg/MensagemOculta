@@ -8,17 +8,22 @@
     <title>Mensagem Oculta</title>
 </head>
 <body>
+    <h1 class="titulo">Mensagem oculta</h1>
     <div class="principal" id="principal">
        <div class="conteudo" id="conteudo">
-            <h1 class="titulo">Codificando</h1>
-            <textarea id='mensagem' placeholder="Digite sua mensagem" rows="10"></textarea><br>
-            <button id="codificar" onclick="function principal()">Criptografar</button><br>
-            <label for="base64">Base 64</label>
-            <input type="radio" id=" base64" name="opcao">
-            <label for="cifraCesar">Cifra de César</label>
-            <input type="radio" id="cifraCesar" name="opcao"><br>
-            <label for="incremento">Incremento</label>
-            <input type="number" name="shift" id="incremento" min="1" max="26">
+            <textarea id='mensagem1' class="mensagem1" placeholder="Digite sua mensagem" rows="10"></textarea>
+            <textarea id='mensagem1' class="mensagem1" rows="10" ></textarea><br>
+            <input type="radio" id="codificar" name="botao" class="botao1"> Criptografar</input>
+            <input type="radio" id="codificar" name="botao" class="botao2"> Descriptografar</input><br>
+            <div class="selecao">
+                <label for="option">Tipo de criptografia:</label>
+                <select name="" id="opcoes" class="tipo">
+                    <option value="">Base64</option>
+                    <option value="">Cifra de César</option>
+                </select><br>
+            <label for="incremento" class="incremento">Incremento:</label>
+            <input type="number" name="shift" id="incremento" class="incremento" min="1" max="26">
+            </div>
        </div>
     </div>
 </body>
