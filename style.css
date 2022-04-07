@@ -71,8 +71,12 @@ input {
 }
 
 .botao {
+    padding: 10px;
     color: rgb(145, 85, 209);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    width: 100%;
     font-size: 13px;
+    margin-top: 10px;
+    margin-left: 100%;
 }

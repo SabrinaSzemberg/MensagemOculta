@@ -9,27 +9,28 @@
 </head>
 <body>
     <h1 class="titulo">Mensagem Oculta</h1>
-    <form class="containerPrincipal">
-        <select name="opcoes" id="opcoes" class="opcoes">
+    <form class="containerPrincipal" id="form">
+        <select name="opcoes" id="opcao" class="opcoes">
             <option value disabled selected>Escolha a criptoografia</option>
-            <option value="cesar" id="cesar">Cifra de César</option>
-            <option value="base64" id="base64">Base64</option>
+            <option value=cesar id="cesar">Cifra de César</option>
+            <option value=base64 id="base64">Base64</option>
         </select>
-        <div id="invisivel">
+        <div id="hidden">
             <input type="number" class="cifra" id="invisivel" placeholder="Selecione o incremento">
         </div>
         <div>
-            <textarea id="mensagem" class="mensagem1" cols="30" rows="10" required placeholder="Digite sua mensagem"></textarea required>
+            <textarea id="mensagem" class="mensagem1" cols="30" rows="10" required placeholder="Digite sua mensagem" required></textarea>
         </div>
         <div class="criptografia">
-            <input type="radio" name="checar" id="codificar">Codificar
-            <input type="radio" name="checar" id="decodificar">Decodificar
+            <input type="radio" name="check" id="codificar">Codificar
+            <input type="radio" name="check" id="decodificar">Decodificar
         </div>
         <div>
             <button id="btn" class="botao"></button>
         </div>
         <div>
-            <textarea id="textoCripto" class="mensagem2" cols="30" rows="10" readonly></textarea>
+            <label for="mensagem1"></label>
+            <textarea id="resultado" class="mensagem2" cols="30" rows="10" readonly></textarea>
         </div>
     </form>
     <script src="script.js"></script>
