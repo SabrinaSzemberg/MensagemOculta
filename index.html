@@ -14,6 +14,22 @@
             <option value="cesar" id="cesar">Cifra de César</option>
             <option value="base64" id="base64">Base64</option>
         </select>
+        <div id="invisivel">
+            <input type="number" class="cifra" id="invisivel" placeholder="Selecione o incremento">
+        </div>
+        <div>
+            <textarea id="mensagem" class="mensagem1" cols="30" rows="10" required placeholder="Digite sua mensagem"></textarea required>
+        </div>
+        <div class="criptografia">
+            <input type="radio" name="checar" id="codificar">Codificar
+            <input type="radio" name="checar" id="decodificar">Decodificar
+        </div>
+        <div>
+            <button id="btn" class="botao"></button>
+        </div>
+        <div>
+            <textarea id="textoCripto" class="mensagem2" cols="30" rows="10" readonly></textarea>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>
