@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(18, 9, 41);
+}
+
+.containerPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 5%;
+    color: aliceblue;
+}
+
+.titulo {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10vh;
+    color: rgb(145, 85, 209);
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 13px;
+}
+
+.opcoes {
+    padding: 10px;
+    color: rgb(145, 85, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cifra {
+    display: none;
+    cursor: pointer;
+    color: rgb(145, 85, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mensagem1, .mensagem2 {
+    width: 70vh;
+    height: 25vh;
+    margin-left: 70px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.criptografia {
+    color: rgb(145, 85, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 6%;
+}
+input {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.botao {
+    color: rgb(145, 85, 209);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
