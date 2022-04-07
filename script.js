@@ -86,11 +86,11 @@ function cifraDec (arr2, inc2) {
                 
         } 
         else if (arr2.charCodeAt(k)>= 65 && arr2.charCodeAt(k)<= 90) {
-            final2.push((((arr2.charCodeAt(k) - 65) - inc4) % 26) + 65);
+            final2.push((((arr2.charCodeAt(k) - 65) - inc4) % 25) + 65);
             
         } 
         else if (arr2.charCodeAt(k)>= 97 && arr2.charCodeAt(k)<= 122){
-            final2.push((((arr2.charCodeAt(k) - 97) - inc4) % 26) + 97);
+            final2.push((((arr2.charCodeAt(k) - 97) - inc4) % 25) + 97);
 
         } 
         else {
